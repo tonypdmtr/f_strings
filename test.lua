@@ -2,5 +2,7 @@
 -- Test f_strings.lua
 --==============================================================================
 
+require 'f_strings'
+
 a = 12345
 print(f'Number: {a}, formatted with two decimals: {a::%.2f}')
